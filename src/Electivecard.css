@@ -1,0 +1,68 @@
+.elective{
+    padding-top: 1.2rem;
+    font-size: 1.35rem;
+    padding-left: 1.5rem;
+}
+.electiveCd{
+    text-align: center;
+    /* width: 80%; */
+    background-color: #e7eaff;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.allsubjcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+.postbtn{
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #e5e6f2;
+    background-color: #7985EE;
+    border-radius: 3px;
+    border: 0px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.postbtn:hover{
+    background-color: #5766ef;
+}
+.form-select{
+    padding-left: 20px;
+}
+.branchoption{
+    display: grid;
+    margin-top: 15px;
+    margin-left: 10px;
+    justify-items: start;
+    gap: 13px 45px;
+    grid-template-columns: repeat(2,50px);
+}
+.form-check-label{
+    margin: 0 2.5rem 0 0.5rem;
+}
+
+.electivecheckbox
+{
+    font-weight: 600;
+}
+
+.selbranch
+{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
